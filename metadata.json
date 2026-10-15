@@ -1,0 +1,6 @@
+{
+  "name": "DoseNote",
+  "description": "Medication and supplement adherence tracking for Bangladesh with caregiver sharing",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

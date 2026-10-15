@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">ডোজ নোট</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">ওষুধ খেতে ভুলে গেছেন কিনা আর কখনো ভাবতে হবে না</string>
+    <string name="onboarding_subtitle">বাংলাদেশের মানুষের জন্য ওষুধ ও সাপ্লিমেন্ট ট্র্যাকিং এবং পরিবারের স্বজনদের দেখাশোনার বিশ্বস্ত অ্যাপ।</string>
+    <string name="phone_entry_label">মোবাইল ফোন নম্বর</string>
+    <string name="phone_placeholder">০১৭১XXXXXXX</string>
+    <string name="send_otp">যাচাইকরণ কোড পাঠান</string>
+    <string name="enter_otp_title">যাচাইকরণ কোড লিখুন</string>
+    <string name="enter_otp_subtitle">%1$s নম্বরে পাঠানো ৬ সংখ্যার কোডটি লিখুন</string>
+    <string name="verify_continue">যাচাই করুন ও এগিয়ে যান</string>
+    <string name="resend_code">পুনরায় কোড পাঠান</string>
+    <string name="quick_test_code">ডেমো কোড ব্যবহার করুন: 123456</string>
+    <string name="select_language">ভাষা / Language</string>
+    <string name="english">English</string>
+    <string name="bangla">বাংলা</string>
+    <string name="profile_setup_title">এই ওষুধের হিসাব কার জন্য?</string>
+    <string name="profile_setup_subtitle">যার ওষুধ ট্র্যাক করবেন তার একটি প্রোফাইল তৈরি করুন।</string>
+    <string name="profile_name_label">নাম</string>
+    <string name="relationship_label">সম্পর্ক</string>
+    <string name="relation_self">নিজের জন্য</string>
+    <string name="relation_parent">বাবা / মা</string>
+    <string name="relation_child">সন্তান</string>
+    <string name="relation_other">অন্যান্য আত্মীয়</string>
+    <string name="complete_setup">শুরু করুন</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">আজকের ডোজ</string>
+    <string name="nav_adherence">রেকর্ড</string>
+    <string name="nav_caregivers">কেয়ারগিভার</string>
+    <string name="nav_settings">সেটিংস</string>
+
+    <!-- Home / Today -->
+    <string name="today_schedule">আজকের সময়সূচী</string>
+    <string name="all_caught_up">আজকের সব ডোজ খাওয়া সম্পন্ন হয়েছে!</string>
+    <string name="no_medications_yet">এখনও কোনো ওষুধ যোগ করা হয়নি</string>
+    <string name="no_medications_desc">নিচের বাটনে ট্যাপ করে আপনার প্রথম ওষুধটি যোগ করুন এবং সঠিক সময়ে রিমাইন্ডার পান।</string>
+    <string name="take_dose">খেয়েছি</string>
+    <string name="skip_dose">বাদ দিয়েছি</string>
+    <string name="snooze_15">১৫ মিনিট পর</string>
+    <string name="status_pending">বাকি আছে</string>
+    <string name="status_taken">খাওয়া হয়েছে</string>
+    <string name="status_skipped">বাদ দেওয়া হয়েছে</string>
+    <string name="status_missed">মিস হয়েছে</string>
+    <string name="dose_action_dialog_title">%1$s এর ডোজ আপডেট</string>
+    <string name="dose_time_label">নির্ধারিত সময়: %1$s</string>
+    <string name="read_only_badge">কেয়ারগিভার ভিউ (শুধুমাত্র দেখার জন্য)</string>
+    <string name="read_only_explanation">আপনি কেয়ারগিভার হিসেবে এই প্রোফাইলটি দেখছেন। এতে কোনো পরিবর্তন করা যাবে না।</string>
+    <string name="low_supply_banner">%1$s এর মজুদ কমে আসছে — আর মাত্র %2$d ডোজ বাকি!</string>
+    <string name="dismiss">বাতিল</string>
+    <string name="active_profile">বর্তমান প্রোফাইল</string>
+    <string name="switch_profile">প্রোফাইল পরিবর্তন করুন</string>
+
+    <!-- Add / Edit Medication -->
+    <string name="add_medication">নতুন ওষুধ যোগ করুন</string>
+    <string name="edit_medication">ওষুধ সম্পাদনা করুন</string>
+    <string name="med_name_label">ওষুধের নাম</string>
+    <string name="med_name_placeholder">যেমন: নাপা, সেকলো, ম্যাক্সপ্রো, সারজেল</string>
+    <string name="dose_desc_label">ডোজ ও মাত্রা</string>
+    <string name="dose_desc_placeholder">যেমন: ৫০০মিগ্রা, ১টি ট্যাবলেট খাবারের পর</string>
+    <string name="schedule_type_label">সময়সূচীর ধরণ</string>
+    <string name="schedule_fixed">প্রতিদিন (নির্দিষ্ট সময়)</string>
+    <string name="schedule_days">সপ্তাহের নির্দিষ্ট দিন</string>
+    <string name="times_per_day">খাওয়ার সময়সমূহ</string>
+    <string name="add_dose_time">আরেকটি সময় যোগ করুন</string>
+    <string name="select_time">সময় নির্ধারণ করুন</string>
+    <string name="start_date">শুরুর তারিখ</string>
+    <string name="end_date_optional">শেষের তারিখ (কোর্সের ক্ষেত্রে ঐচ্ছিক)</string>
+    <string name="track_supply_label">মজুদ হিসাব রাখুন</string>
+    <string name="remaining_supply_label">বর্তমান মজুদ (ট্যাবলেট/ডোজ সংখ্যা)</string>
+    <string name="low_supply_threshold_label">সতর্কবার্তা পাবেন যখন মজুদ নেমে আসবে</string>
+    <string name="save_medication">সময়সূচী সংরক্ষণ করুন</string>
+    <string name="delete_medication">ওষুধ মুছে ফেলুন</string>
+    <string name="confirm_delete_msg">আপনি কি নিশ্চিতভাবে এই ওষুধের সময়সূচীটি মুছে ফেলতে চান?</string>
+    <string name="delete">মুছে ফেলুন</string>
+    <string name="cancel">বাতিল</string>
+
+    <!-- Adherence -->
+    <string name="adherence_title">নিয়মমাফিক গ্রহণের রেকর্ড</string>
+    <string name="weekly_score">গত ৭ দিনের স্কোর</string>
+    <string name="adherence_summary">%2$d টি ডোজের মধ্যে %1$d টি সঠিক সময়ে নেওয়া হয়েছে</string>
+    <string name="calendar_strip">তারিখ নির্বাচন</string>
+    <string name="per_med_breakdown">ওষুধভিত্তিক বিবরণ</string>
+    <string name="no_logs_for_day">এই তারিখে কোনো ডোজ নির্ধারিত ছিল না।</string>
+
+    <!-- Caregiver Sharing -->
+    <string name="caregiver_sharing_title">কেয়ারগিভার শেয়ারিং</string>
+    <string name="caregiver_sharing_subtitle">বিশ্বস্ত স্বজন বা কেয়ারগিভারকে যুক্ত করুন যাতে তারা ওষুধ খাওয়া হয়েছে কিনা তা রিয়েল-টাইমে দেখতে পারেন।</string>
+    <string name="invite_caregiver_btn">কেয়ারগিভার যুক্ত করুন</string>
+    <string name="caregiver_phone_label">কেয়ারগিভারের মোবাইল নম্বর</string>
+    <string name="send_invite_btn">আমন্ত্রণ পাঠান</string>
+    <string name="invite_sent_success">সফলভাবে আমন্ত্রণ পাঠানো হয়েছে!</string>
+    <string name="shared_with_me">আমার সাথে শেয়ার করা প্রোফাইল</string>
+    <string name="sent_invites">পাঠানো আমন্ত্রণসমূহ</string>
+    <string name="no_caregivers_yet">এখনও কোনো কেয়ারগিভার যুক্ত নেই</string>
+    <string name="accept">গ্রহণ করুন</string>
+    <string name="pending_status">গ্রহণের অপেক্ষায়</string>
+    <string name="accepted_status">সক্রিয় কেয়ারগিভার</string>
+    <string name="share_link_copied">আমন্ত্রণ লিংক ক্লিপবোর্ডে কপি করা হয়েছে!</string>
+
+    <!-- Paywall & Subscriptions -->
+    <string name="family_plan_title">ডোজ নোট ফ্যামিলি প্ল্যান</string>
+    <string name="family_plan_desc">পরিবারের একাধিক সদস্যের প্রোফাইল তৈরি করুন, রিয়েল-টাইম কেয়ারগিভার শেয়ারিং এবং ওষুধের মজুদ অ্যালার্ট সক্রিয় করুন।</string>
+    <string name="feature_multi_profile">পরিবারের একাধিক সদস্য পরিচালনা (বাবা, মা, সন্তান)</string>
+    <string name="feature_caregiver_sync">স্বজনদের সাথে রিয়েল-টাইম স্ট্যাটাস শেয়ার</string>
+    <string name="feature_supply_tracking">ওষুধের মজুদ শেষ হওয়ার স্বয়ংক্রিয় সতর্কতা</string>
+    <string name="tier_monthly_price">৳১৪৯ / মাস</string>
+    <string name="tier_yearly_price">৳১,৪৯৯ / বছর (১৬% সাশ্রয়)</string>
+    <string name="subscribe_now">গুগল প্লে দিয়ে সাবস্ক্রাইব করুন</string>
+    <string name="restore_subscription">সাবস্ক্রিপশন পুনরুদ্ধার</string>
+    <string name="family_plan_active">ফ্যামিলি প্ল্যান সক্রিয়</string>
+    <string name="free_tier_active">ফ্রি প্ল্যান (১টি প্রোফাইল)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="manage_profiles">প্রোফাইলসমূহ</string>
+    <string name="add_new_profile">নতুন প্রোফাইল যোগ করুন</string>
+    <string name="notifications_sound">শব্দ ও কম্পন রিমাইন্ডার</string>
+    <string name="app_language">অ্যাপের ভাষা (Language)</string>
+    <string name="account_info">অ্যাকাউন্ট ও ফোন নম্বর</string>
+    <string name="sign_out">সাইন আউট</string>
+    <string name="upgrade_family_banner">ফ্যামিলি প্ল্যানে আপগ্রেড করুন</string>
+    <string name="upgrade_family_banner_sub">একটি অ্যাকাউন্টেই বাবা-মা ও সন্তানদের ওষুধের দেখাশোনা করুন।</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">ওষুধের রিমাইন্ডার</string>
+    <string name="notif_channel_desc">সঠিক সময়ে ওষুধ খাওয়ার নোটিফিকেশন</string>
+    <string name="notif_channel_supply_name">মজুদ সতর্কতা</string>
+    <string name="notif_channel_supply_desc">ওষুধ কমে গেলে আগাম সতর্কতা</string>
+    <string name="notif_dose_reminder_title">%1$s খাওয়ার সময় হয়েছে</string>
+    <string name="notif_dose_reminder_body">%1$s — %2$s</string>
+    <string name="notif_action_taken">খেয়েছি</string>
+    <string name="notif_action_skip">বাদ দিন</string>
+    <string name="notif_supply_low_title">ওষুধের স্টক সতর্কতা: %1$s</string>
+    <string name="notif_supply_low_body">%2$s এর আর মাত্র %1$d টি ডোজ বাকি আছে। শীঘ্রই সংগ্রহ করুন।</string>
+</resources>

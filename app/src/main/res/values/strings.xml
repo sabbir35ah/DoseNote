@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">DoseNote</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Never wonder if you took your dose</string>
+    <string name="onboarding_subtitle">Medication and supplement adherence tracking for Bangladesh with caregiver support.</string>
+    <string name="phone_entry_label">Mobile Phone Number</string>
+    <string name="phone_placeholder">017XXXXXXXX</string>
+    <string name="send_otp">Get Verification Code</string>
+    <string name="enter_otp_title">Enter Verification Code</string>
+    <string name="enter_otp_subtitle">Enter the 6-digit code sent to %1$s</string>
+    <string name="verify_continue">Verify &amp; Continue</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="quick_test_code">Use Demo OTP: 123456</string>
+    <string name="select_language">Language / ভাষা</string>
+    <string name="english">English</string>
+    <string name="bangla">বাংলা</string>
+    <string name="profile_setup_title">Who is this for?</string>
+    <string name="profile_setup_subtitle">Create a profile for the person taking the medications.</string>
+    <string name="profile_name_label">Name</string>
+    <string name="relationship_label">Relationship</string>
+    <string name="relation_self">Myself</string>
+    <string name="relation_parent">Parent (Father / Mother)</string>
+    <string name="relation_child">Child</string>
+    <string name="relation_other">Other relative</string>
+    <string name="complete_setup">Get Started</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Today</string>
+    <string name="nav_adherence">Adherence</string>
+    <string name="nav_caregivers">Caregiver</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home / Today -->
+    <string name="today_schedule">Today\'s Schedule</string>
+    <string name="all_caught_up">All caught up for today!</string>
+    <string name="no_medications_yet">No medications added yet</string>
+    <string name="no_medications_desc">Tap the button below to add your first medicine and set daily dose reminders.</string>
+    <string name="take_dose">Taken</string>
+    <string name="skip_dose">Skip</string>
+    <string name="snooze_15">Snooze 15m</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_taken">Taken</string>
+    <string name="status_skipped">Skipped</string>
+    <string name="status_missed">Missed</string>
+    <string name="dose_action_dialog_title">Log Dose for %1$s</string>
+    <string name="dose_time_label">Scheduled at %1$s</string>
+    <string name="read_only_badge">Caregiver View (Read-Only)</string>
+    <string name="read_only_explanation">You have read-only access to this profile as a caregiver.</string>
+    <string name="low_supply_banner">%1$s is running low — only %2$d doses left!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="active_profile">Active Profile</string>
+    <string name="switch_profile">Switch Profile</string>
+
+    <!-- Add / Edit Medication -->
+    <string name="add_medication">Add Medication</string>
+    <string name="edit_medication">Edit Medication</string>
+    <string name="med_name_label">Medicine Name</string>
+    <string name="med_name_placeholder">e.g. Napa, Seclo, Maxpro, Sergel</string>
+    <string name="dose_desc_label">Dose &amp; Instruction</string>
+    <string name="dose_desc_placeholder">e.g. 500mg, 1 tablet after meals</string>
+    <string name="schedule_type_label">Schedule Pattern</string>
+    <string name="schedule_fixed">Daily (Exact Times)</string>
+    <string name="schedule_days">Specific Days of Week</string>
+    <string name="times_per_day">Dose Times</string>
+    <string name="add_dose_time">Add Another Time</string>
+    <string name="select_time">Select Time</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date_optional">End Date (Optional for courses)</string>
+    <string name="track_supply_label">Track Remaining Supply</string>
+    <string name="remaining_supply_label">Remaining Units / Tablets</string>
+    <string name="low_supply_threshold_label">Alert when remaining drops to</string>
+    <string name="save_medication">Save Schedule</string>
+    <string name="delete_medication">Delete Medication</string>
+    <string name="confirm_delete_msg">Are you sure you want to delete this medication schedule?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Adherence -->
+    <string name="adherence_title">Adherence &amp; History</string>
+    <string name="weekly_score">7-Day Adherence Score</string>
+    <string name="adherence_summary">%1$d of %2$d doses taken on time</string>
+    <string name="calendar_strip">Select Day</string>
+    <string name="per_med_breakdown">Medication Breakdown</string>
+    <string name="no_logs_for_day">No dose logs for this date.</string>
+
+    <!-- Caregiver Sharing -->
+    <string name="caregiver_sharing_title">Caregiver Sharing</string>
+    <string name="caregiver_sharing_subtitle">Allow trusted family members or caregivers to see real-time dose status and low supply warnings.</string>
+    <string name="invite_caregiver_btn">Invite a Caregiver</string>
+    <string name="caregiver_phone_label">Caregiver\'s Mobile Number</string>
+    <string name="send_invite_btn">Send Invitation</string>
+    <string name="invite_sent_success">Invitation sent successfully!</string>
+    <string name="shared_with_me">Profiles Shared With Me</string>
+    <string name="sent_invites">Sent Caregiver Invitations</string>
+    <string name="no_caregivers_yet">No caregivers linked yet</string>
+    <string name="accept">Accept</string>
+    <string name="pending_status">Pending Acceptance</string>
+    <string name="accepted_status">Active Caregiver</string>
+    <string name="share_link_copied">Invite link copied to clipboard!</string>
+
+    <!-- Paywall & Subscriptions -->
+    <string name="family_plan_title">DoseNote Family Plan</string>
+    <string name="family_plan_desc">Unlock multi-profile family management, real-time caregiver sharing, and automated supply tracking.</string>
+    <string name="feature_multi_profile">Manage multiple family members (Parents, Children)</string>
+    <string name="feature_caregiver_sync">Real-time caregiver sync &amp; alerts</string>
+    <string name="feature_supply_tracking">Remaining supply &amp; refill alerts</string>
+    <string name="tier_monthly_price">৳149 / month</string>
+    <string name="tier_yearly_price">৳1,499 / year (Save 16%)</string>
+    <string name="subscribe_now">Subscribe with Google Play</string>
+    <string name="restore_subscription">Restore Purchase</string>
+    <string name="family_plan_active">Family Plan Active</string>
+    <string name="free_tier_active">Free Plan (1 Profile)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="manage_profiles">Manage Profiles</string>
+    <string name="add_new_profile">Add New Profile</string>
+    <string name="notifications_sound">Notification Sound &amp; Vibration</string>
+    <string name="app_language">App Language</string>
+    <string name="account_info">Account &amp; Phone</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="upgrade_family_banner">Upgrade to Family Plan</string>
+    <string name="upgrade_family_banner_sub">Track medicine for parents and children with 1 account.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Dose Reminders</string>
+    <string name="notif_channel_desc">Exact-time notifications for scheduled doses</string>
+    <string name="notif_channel_supply_name">Supply Alerts</string>
+    <string name="notif_channel_supply_desc">Alerts when medication supply is running low</string>
+    <string name="notif_dose_reminder_title">Time for %1$s</string>
+    <string name="notif_dose_reminder_body">%1$s — %2$s</string>
+    <string name="notif_action_taken">Taken</string>
+    <string name="notif_action_skip">Skip</string>
+    <string name="notif_supply_low_title">Low Supply Alert: %1$s</string>
+    <string name="notif_supply_low_body">Only %1$d doses remaining for %2$s. Please replenish soon.</string>
+</resources>
